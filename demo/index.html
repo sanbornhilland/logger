@@ -1,0 +1,15 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Logger Demo</title>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"></script>
+
+  <script>
+    requirejs(['../lib/logger.js'], function (module) {
+      window.createLogger = module;
+    });
+  </script>
+</body>
+</html>
