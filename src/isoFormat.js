@@ -1,3 +1,10 @@
+function pad(num, digits) {
+  while (num.toString().length < digits) {
+      num = '0' + num;
+  }
+  return num.toString();
+};
+
 function isoFormat (date) {
   var year    = date.getFullYear();
   var month   = date.getMonth() + 1; // Months are zero-indexed
