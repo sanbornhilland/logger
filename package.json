@@ -1,0 +1,36 @@
+{
+  "name": "logger",
+  "version": "0.0.0",
+  "description": "Log with timestamps while preserving the correct line numbers",
+  "main": "src/logger.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanbornhnewyyz/logger.git"
+  },
+  "keywords": [
+    "log",
+    "console",
+    "logger",
+    "debug",
+    "warn",
+    "timestamp",
+    "console.log",
+    "info",
+    "error"
+  ],
+  "author": "Sanborn Hilland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanbornhnewyyz/logger/issues"
+  },
+  "homepage": "https://github.com/sanbornhnewyyz/logger#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
